@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="principal">
+                <div class="titulo">
+                    <h1 class="titulo">Consulta de CEP</h1>
+                </div>
+                <div class="input">
+                    <input type="text" id="cep" onkeyup="executaAPI()" placeholder="Digite o cep..."><button onclick="executaAPI()"><img class="lupa"
+                            src="assets/lupa.svg" alt=""></button>
+                </div>
+                <div class="elementos">
+                    <div class="config">
+                        <h1 id="erro"></h1>
+                    </div>
+                    <div class="config">
+                        <img class="img" src="assets/mapa.png" alt="">
+                        <h1 class="texto_principal">Cidade:</h1>
+                        <h1 class="texto_principal" id="cidade"></h1>
+                    </div>
+                    <div class="config">
+                        <img class="img" src="assets/globo.png" alt="">
+                        <h1 class="texto_principal">Estado:</h1>
+                        <h1 class="texto_principal" id="estado"></h1>
+                    </div>
+                    <div class="config">
+                    <img class="img" src="assets/bandeira.png" alt="">
+                    <h1 class="texto_principal">Bairro:</h1>
+                    <h1 class="texto_principal" id="bairro"></h1>
+                </div>
+                    <div class="config">
+                        <img class="img" src="assets/marcador.png" alt="">
+                        <h1 class="texto_principal">Endereço:</h1>
+                        <h1 class="texto_principal" id='endereco'></h1>
+                    </div>
+                    <div class="config">
+                        <img class="img" src="assets/placa-automovel.png" alt="">
+                        <h1 class="texto_principal">Complemento:</h1>
+                        <h1 class="texto_principal" id='complemento'></h1>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

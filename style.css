@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    font-family: var(--fonte-principal);
+    color: var(--cor-texto);
+}
+:root{
+    --cor-principal:#435334;
+    --cor-texto:#CEDEBD;
+    --fonte-principal:'Kantumruy Pro', sans-serif;
+}
+body{
+    background-image: url(assets/fundo.jpg);
+    background-size: 100%;
+}
+.principal{
+    width: 30%;
+    height: 30em;
+    background-color: var(--cor-principal);
+    display: flex;
+    justify-content: start;
+    margin-left: 33%;
+    margin-top: 8%;
+    border-radius: 30px;
+    opacity: 80%;
+    flex-direction: column;
+}
+.titulo{
+    margin-top: 0.5em;
+    margin-left: 3.6em;
+    color: var(--cor-texto);
+    font-family: var(--fonte-principal);
+}
+.elementos{
+    margin-top: 4em;
+    margin-left: 4em;
+    
+}
+.input{
+    margin-left: 2.5em;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+}
+input{
+    height: 3em;
+    width: 24em;
+    color: black;
+    font-size: 15px;
+}
+.lupa{
+    height: 2.8em;
+    width: 3em;
+}
+button{
+    background-color: #6C3428;
+    border: #6C3428;
+}
+.config{
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    height:30px;
+    margin-right: 1em;
+    margin-top: 0.3em;
+}
+.texto_principal{
+    margin-top: 0.3em;
+}
